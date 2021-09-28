@@ -27,7 +27,7 @@ Template Name: General Template
                             endwhile;
                             else:
                             ?>
-                            <p>There's nothing to be displayed</p>
+                             <p><?php _e("There's nothing to be displayed...", 'learnwp'); ?></p>
                             <?php 
                             endif;
                             ?>
@@ -36,11 +36,6 @@ Template Name: General Template
     
                </div>  
        </section>
-        <section class="map">
-        <div class="container">
-            <div class="row">Map</div>
-        </div>    
-        </section>
        </main>
      
    </div>
